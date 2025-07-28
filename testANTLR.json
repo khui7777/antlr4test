@@ -1,0 +1,708 @@
+{
+  "compilationUnit": [
+    {
+      "packageDeclaration": [
+        {
+          "type": 32,
+          "text": "package"
+        },
+        {
+          "qualifiedName": [
+            {
+              "identifier": [
+                {
+                  "type": 128,
+                  "text": "org"
+                }
+              ]
+            },
+            {
+              "type": 86,
+              "text": "."
+            },
+            {
+              "identifier": [
+                {
+                  "type": 128,
+                  "text": "example"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 84,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "typeDeclaration": [
+        {
+          "classOrInterfaceModifier": [
+            {
+              "type": 35,
+              "text": "public"
+            }
+          ]
+        },
+        {
+          "classDeclaration": [
+            {
+              "type": 9,
+              "text": "class"
+            },
+            {
+              "identifier": [
+                {
+                  "type": 128,
+                  "text": "Main"
+                }
+              ]
+            },
+            {
+              "classBody": [
+                {
+                  "type": 80,
+                  "text": "{"
+                },
+                {
+                  "classBodyDeclaration": [
+                    {
+                      "modifier": [
+                        {
+                          "classOrInterfaceModifier": [
+                            {
+                              "type": 35,
+                              "text": "public"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "modifier": [
+                        {
+                          "classOrInterfaceModifier": [
+                            {
+                              "type": 38,
+                              "text": "static"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "memberDeclaration": [
+                        {
+                          "methodDeclaration": [
+                            {
+                              "typeTypeOrVoid": [
+                                {
+                                  "type": 48,
+                                  "text": "void"
+                                }
+                              ]
+                            },
+                            {
+                              "identifier": [
+                                {
+                                  "type": 128,
+                                  "text": "main"
+                                }
+                              ]
+                            },
+                            {
+                              "formalParameters": [
+                                {
+                                  "type": 78,
+                                  "text": "("
+                                },
+                                {
+                                  "formalParameterList": [
+                                    {
+                                      "formalParameter": [
+                                        {
+                                          "typeType": [
+                                            {
+                                              "classOrInterfaceType": [
+                                                {
+                                                  "typeIdentifier": [
+                                                    {
+                                                      "type": 128,
+                                                      "text": "String"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 82,
+                                              "text": "["
+                                            },
+                                            {
+                                              "type": 83,
+                                              "text": "]"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "variableDeclaratorId": [
+                                            {
+                                              "identifier": [
+                                                {
+                                                  "type": 128,
+                                                  "text": "args"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": 79,
+                                  "text": ")"
+                                }
+                              ]
+                            },
+                            {
+                              "methodBody": [
+                                {
+                                  "block": [
+                                    {
+                                      "type": 80,
+                                      "text": "{"
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "memberReferenceExpression": [
+                                                {
+                                                  "memberReferenceExpression": [
+                                                    {
+                                                      "primaryExpression": [
+                                                        {
+                                                          "primary": [
+                                                            {
+                                                              "identifier": [
+                                                                {
+                                                                  "type": 128,
+                                                                  "text": "System"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 86,
+                                                      "text": "."
+                                                    },
+                                                    {
+                                                      "identifier": [
+                                                        {
+                                                          "type": 128,
+                                                          "text": "out"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": 86,
+                                                  "text": "."
+                                                },
+                                                {
+                                                  "methodCall": [
+                                                    {
+                                                      "identifier": [
+                                                        {
+                                                          "type": 128,
+                                                          "text": "println"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "arguments": [
+                                                        {
+                                                          "type": 78,
+                                                          "text": "("
+                                                        },
+                                                        {
+                                                          "expressionList": [
+                                                            {
+                                                              "primaryExpression": [
+                                                                {
+                                                                  "primary": [
+                                                                    {
+                                                                      "literal": [
+                                                                        {
+                                                                          "type": 75,
+                                                                          "text": "\"Hello world!\""
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 79,
+                                                          "text": ")"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 84,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "localVariableDeclaration": [
+                                            {
+                                              "typeType": [
+                                                {
+                                                  "primitiveType": [
+                                                    {
+                                                      "type": 27,
+                                                      "text": "int"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "variableDeclarators": [
+                                                {
+                                                  "variableDeclarator": [
+                                                    {
+                                                      "variableDeclaratorId": [
+                                                        {
+                                                          "identifier": [
+                                                            {
+                                                              "type": 128,
+                                                              "text": "result"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 87,
+                                                      "text": "\u003d"
+                                                    },
+                                                    {
+                                                      "variableInitializer": [
+                                                        {
+                                                          "binaryOperatorExpression": [
+                                                            {
+                                                              "binaryOperatorExpression": [
+                                                                {
+                                                                  "binaryOperatorExpression": [
+                                                                    {
+                                                                      "binaryOperatorExpression": [
+                                                                        {
+                                                                          "primaryExpression": [
+                                                                            {
+                                                                              "primary": [
+                                                                                {
+                                                                                  "literal": [
+                                                                                    {
+                                                                                      "integerLiteral": [
+                                                                                        {
+                                                                                          "type": 67,
+                                                                                          "text": "10"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "type": 102,
+                                                                          "text": "+"
+                                                                        },
+                                                                        {
+                                                                          "primaryExpression": [
+                                                                            {
+                                                                              "primary": [
+                                                                                {
+                                                                                  "literal": [
+                                                                                    {
+                                                                                      "integerLiteral": [
+                                                                                        {
+                                                                                          "type": 67,
+                                                                                          "text": "9"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type": 102,
+                                                                      "text": "+"
+                                                                    },
+                                                                    {
+                                                                      "binaryOperatorExpression": [
+                                                                        {
+                                                                          "primaryExpression": [
+                                                                            {
+                                                                              "primary": [
+                                                                                {
+                                                                                  "literal": [
+                                                                                    {
+                                                                                      "integerLiteral": [
+                                                                                        {
+                                                                                          "type": 67,
+                                                                                          "text": "1333"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "type": 104,
+                                                                          "text": "*"
+                                                                        },
+                                                                        {
+                                                                          "primaryExpression": [
+                                                                            {
+                                                                              "primary": [
+                                                                                {
+                                                                                  "literal": [
+                                                                                    {
+                                                                                      "integerLiteral": [
+                                                                                        {
+                                                                                          "type": 67,
+                                                                                          "text": "12863"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 103,
+                                                                  "text": "-"
+                                                                },
+                                                                {
+                                                                  "binaryOperatorExpression": [
+                                                                    {
+                                                                      "primaryExpression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "type": 78,
+                                                                              "text": "("
+                                                                            },
+                                                                            {
+                                                                              "primaryExpression": [
+                                                                                {
+                                                                                  "primary": [
+                                                                                    {
+                                                                                      "literal": [
+                                                                                        {
+                                                                                          "integerLiteral": [
+                                                                                            {
+                                                                                              "type": 67,
+                                                                                              "text": "216738"
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            },
+                                                                            {
+                                                                              "type": 79,
+                                                                              "text": ")"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "type": 105,
+                                                                      "text": "/"
+                                                                    },
+                                                                    {
+                                                                      "primaryExpression": [
+                                                                        {
+                                                                          "primary": [
+                                                                            {
+                                                                              "literal": [
+                                                                                {
+                                                                                  "integerLiteral": [
+                                                                                    {
+                                                                                      "type": 67,
+                                                                                      "text": "1"
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "type": 103,
+                                                              "text": "-"
+                                                            },
+                                                            {
+                                                              "binaryOperatorExpression": [
+                                                                {
+                                                                  "primaryExpression": [
+                                                                    {
+                                                                      "primary": [
+                                                                        {
+                                                                          "literal": [
+                                                                            {
+                                                                              "integerLiteral": [
+                                                                                {
+                                                                                  "type": 67,
+                                                                                  "text": "2"
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 104,
+                                                                  "text": "*"
+                                                                },
+                                                                {
+                                                                  "primaryExpression": [
+                                                                    {
+                                                                      "primary": [
+                                                                        {
+                                                                          "literal": [
+                                                                            {
+                                                                              "integerLiteral": [
+                                                                                {
+                                                                                  "type": 67,
+                                                                                  "text": "2"
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": 84,
+                                          "text": ";"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "blockStatement": [
+                                        {
+                                          "statement": [
+                                            {
+                                              "memberReferenceExpression": [
+                                                {
+                                                  "memberReferenceExpression": [
+                                                    {
+                                                      "primaryExpression": [
+                                                        {
+                                                          "primary": [
+                                                            {
+                                                              "identifier": [
+                                                                {
+                                                                  "type": 128,
+                                                                  "text": "System"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": 86,
+                                                      "text": "."
+                                                    },
+                                                    {
+                                                      "identifier": [
+                                                        {
+                                                          "type": 128,
+                                                          "text": "out"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": 86,
+                                                  "text": "."
+                                                },
+                                                {
+                                                  "methodCall": [
+                                                    {
+                                                      "identifier": [
+                                                        {
+                                                          "type": 128,
+                                                          "text": "println"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "arguments": [
+                                                        {
+                                                          "type": 78,
+                                                          "text": "("
+                                                        },
+                                                        {
+                                                          "expressionList": [
+                                                            {
+                                                              "binaryOperatorExpression": [
+                                                                {
+                                                                  "primaryExpression": [
+                                                                    {
+                                                                      "primary": [
+                                                                        {
+                                                                          "literal": [
+                                                                            {
+                                                                              "type": 75,
+                                                                              "text": "\"Result: \""
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "type": 102,
+                                                                  "text": "+"
+                                                                },
+                                                                {
+                                                                  "primaryExpression": [
+                                                                    {
+                                                                      "primary": [
+                                                                        {
+                                                                          "identifier": [
+                                                                            {
+                                                                              "type": 128,
+                                                                              "text": "result"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "type": 79,
+                                                          "text": ")"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": 84,
+                                              "text": ";"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": 81,
+                                      "text": "}"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 81,
+                  "text": "}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": -1,
+      "text": "\u003cEOF\u003e"
+    }
+  ]
+}
